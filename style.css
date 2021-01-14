@@ -1,0 +1,107 @@
+body h1, h2, h3{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    color: #363958;
+}
+body p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #444;
+}
+
+.top-menu li{
+    padding: 5px 20px;
+}
+.top-menu li > a{
+    font-size: 20px;
+}
+.top-menu li:last-child{
+    padding-right: 0;
+}
+header{
+    background-color: #fffff4;
+    padding-bottom: 200px;
+}
+header .img-s{
+    width: 400px;
+}
+.font-s h1{
+    font-size: 100px;
+    color: #363958;
+}
+.font-s h1 span{
+    color: #76c27e;
+}
+button img{
+    width: 30px;
+}
+
+main h3{
+    font-size: 45px;
+}
+main h2{
+    font-size: 70px;
+}
+.img-s .sm-icon{
+    width: 105px;
+}
+.img-s .sm-img{
+    max-width: 750px;
+    padding-top:50px;
+    padding-left: 50px;
+
+}
+.secoend-s{
+    margin-bottom: 100px;
+}
+.bg-color{
+    border-radius: 20px;
+}
+.bg-color > .p-right{
+    padding-left: 50px;
+}
+.third-s .c-card{
+    border: 0;
+    border-radius: 20px;
+}
+.third-s .bg-light{
+    border-radius: 20px;
+}
+.third-s{
+    margin-bottom: 90px;
+
+}
+.fifth-s{
+    background-color: azure;
+    border-radius: 20px;
+}
+.fifth-s .form{
+    padding: 70px 150px;
+}
+
+.in-put{
+    padding: 8px 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+@media (max-width: 768px) { 
+    .in-put{
+    padding: 5px 10px;
+    font-size: auto;
+    border: none;
+    border-radius: 8px;
+    }
+    .font-s h1{
+        font-size: 50px;
+    }
+    header .img-s{
+        max-width: 200px;
+    }
+    .img-s .sm-img{
+        max-width: 450px;
+        padding-top: 50px;
+        padding-left: 30px;
+    
+    }
+ }
